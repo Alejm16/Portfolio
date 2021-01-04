@@ -1,7 +1,13 @@
 body{
     background-color: #076cab ;
 }
-h1,h2{
+h1{
+    font-size: medium;
+    text-align: left;
+    padding-top: 19px;
+    float: left;
+}
+h2{
     display: block;
     text-align: center;
 }
@@ -13,8 +19,8 @@ p {
 #menu {
     list-style-type: none; /* removes the bullets*/
     margin: auto;
-    padding: 8px 0px;
-    width: 690px;
+    padding: 0px 0px;
+    width: fit-content;
     background-color: #f1f1f1;
 }
 li {
