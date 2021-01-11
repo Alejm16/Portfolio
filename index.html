@@ -5,18 +5,20 @@
         <title> Alejandro Resume </title>
     </head>
     <body>  
-    <h1>Alejandro Munoz</h1>
-    <ul>
-        <li><a href = "about.asp"> About Me</a></li>
-        <li><a href = "technical.asp"> Technical,</a></li>
-        <li><a href = "projects.asp"> Projects</a></li>
-        <li><a href = "contact.asp">Contact Me</a></li>
-    </ul>
+    <section id= "header">
+        <ul>
+            <li id="name" style="float: left">Alejandro Munoz</li>
+            <li><a href = "about.asp" style="text-decoration: none;"> About Me</a></li>
+            <li><a href = "technical.asp" style="text-decoration: none;"> Technical</a></li>
+            <li><a href = "projects.asp" style="text-decoration: none;"> Projects</a></li>
+            <li><a href = "contact.asp" style="text-decoration: none;">Contact Me</a></li>
+        </ul>
+    </section>
     <section id="about">
         <h2> About Me</h2>
         <img src = "assets/img/Ale_image.JPEG" alt = "Image" width="20%"> 
         <p id="about">Hi I'm Alejandor Munoz, I'm currently a Junior at the University of North Texas<br>
-            I'm pursuing a Bachelors of Science in computer Science and will be graduating December 2021<br>
+            I'm pursuing a Bachelors of Science in computer Science with a certificate in cyber security and will be graduating December 2021.<br>
             I began programming with Java during the Senior year or High School and have <br>
             moved to C++ and Python throughout High School. I have completed projects for <br>
             Provost at UNT, such as analyzing attendance for face to face classes after the <br>
@@ -28,9 +30,18 @@
         <p> </p>
     </section>
     <section id="project">
-        <a href="https://github.com/Alejm16">Github</a>
         <h2>Projects</h2>
-        <p></p>
+        <h3> Provost Project</h3>
+        <p>I have developed multiple projects with the C++ and Python Language. I developed a project for UNT's Office of Provost <br>
+        which is responsible for UNT's academic mission and supervises UNT's academic program. Ever since the COVID-19 outbreak, classes <br>
+        where changed to remote learning while some classes were still offered face to face. My program was able to go through twenty thousand<br>
+        students an calculate attendance percentage, week by week difference, and categorize the data by course section. <br></p>
+        <h3> Contagion </h3>
+        <p>Collaborated with team members to create a simulation engine that compares the impact of different vaccine distributions using C++. <br>
+        Responsible for reading in the initial region population which is given by csv file and responsible for algorithm of vaccine distribution. <br>
+        Reviewed other team members code for best results.
+        </p>
+
     </section>
     <section id="contact">
         <h2>Contact Me</h2>
